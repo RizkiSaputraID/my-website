@@ -24,22 +24,7 @@ use App\Models\User;
 */
 
 Route::get('/home', function () {
-    return view('Home', [
-        "title" => "Home",
-        "active" => "home",
-        "name" => "Rizki Firnanda Saputra",
-        "email" => "rizkipare12@gmail.com",
-        "image" => "rizki.png"
-    ]);
-});
-
-Route::get('/about', function () {
-    return view('About', [
-        "title" => "About",
-        "name" => "Rizki Firnanda Saputra",
-        "email" => "rizkipare12@gmail.com",
-        "image" => "rizki.png"
-    ]);
+    return view('Home');
 });
 
 
