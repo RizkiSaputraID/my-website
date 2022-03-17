@@ -1,0 +1,59 @@
+body {
+    background-color: #daddfc;
+}
+
+hr {
+    width: 250px;
+    border-top: 3px solid;
+}
+
+h1 {
+    color: #222222;
+    font-weight: 700;
+    font-size: 2.5rem;
+    line-height: 3.25rem;
+    letter-spacing: -0.4px;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.about {
+    margin-bottom: 100px;
+}
+
+.card:hover {
+    background-color: #ddd;
+}
+
+.btn-solid-lg {
+    display: inline-block;
+    padding: 1.625rem 2.625rem 1.625rem 2.625rem;
+    border: 1px solid #fc997c;
+    border-radius: 30px;
+    background-color: #fc997c;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 0.875rem;
+    line-height: 0;
+    text-decoration: none;
+    transition: all 0.2s;
+}
+
+.btn-solid-lg:hover {
+    background-color: transparent;
+    color: #fc997c; /* needs to stay here because of the color property of a tag */
+    text-decoration: none;
+}
+
+.section-title {
+    display: inline-block;
+    margin-bottom: 0.75rem;
+    padding: 0.125rem 1.75rem;
+    border-radius: 30px;
+    background-color: #ffe7eb;
+    color: #fc997c;
+    font-weight: 600;
+    font-size: 0.875rem;
+}
