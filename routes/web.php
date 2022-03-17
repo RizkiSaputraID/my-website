@@ -24,7 +24,10 @@ use App\Models\User;
 */
 
 Route::get('/home', function () {
-    return view('Home');
+    return view('Home', [
+        "title" => "Home",
+        "active" => "home",
+    ]);
 });
 
 
