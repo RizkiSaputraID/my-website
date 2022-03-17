@@ -43,17 +43,6 @@ Route::get('/about', function () {
 });
 
 
-//Route::get('/coba', function () {
-  //  return view('Coba', [
-    //    "title" => "Coba",
-      //  "name" => "Rizki Firnanda Saputra",
-        //"email" => "rizkipare12@gmail.com",
-        //"image" => "rizki.png"
-    //]);
-//});
-
-
-
 Route::get('/posts', [PostControler::class, 'index']);
 Route::get('posts/{post:slug}', [PostControler::class,'show']);
 
